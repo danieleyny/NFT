@@ -226,7 +226,7 @@ button{
 }
 
 .nav__img{
-  width: 185px;
+  width: 175px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1007,6 +1007,10 @@ button{
     min-width: 30rem;
     max-width: 30rem;
   }
+  .vidoespecs {
+    height: 350px;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 868px){
@@ -1045,6 +1049,7 @@ button{
   .home {
     margin-top: 450px;
   }
+ 
 }
 
 
@@ -1055,11 +1060,11 @@ button{
     height: 3rem;
     background: linear-gradient(
       to bottom,
-      rgba(16, 15, 15, 0.9) 50%,
-      rgba(57, 53, 53, 0.9) 0
+      rgba(61, 58, 58, 0.9) 50%,
+      rgba(99, 93, 93, 0.9) 0
     );
-    margin: 0 4rem 12rem 4rem;
-    font-size: 3rem;
+    margin: 0 1rem 1rem 1rem;
+    font-size: 2.5rem;
     font-weight: 400;
     display: flex;
     justify-content: center;
@@ -1069,12 +1074,27 @@ button{
   }  
   .countdown div::after {
     content: attr(data-content);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     position: absolute;
-    bottom: -4rem;
   }
-
+  .button-countdown{
+    margin-top: 150px;
+  }
+  .vidoespecs {
+    height: 250px;
+    width: 300px;
+  }
+  .blog-post__img {
+    height: 250px;
+    margin-bottom: -50px;
+  }
+  .new__img{
+    width: 100px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
 }
 
 
@@ -1094,6 +1114,7 @@ button{
     row-gap: 1rem;
     align-content: right;
   }
+  
 
   .category__container,
   .elixir__container{
@@ -1120,7 +1141,7 @@ button{
       rgba(61, 58, 58, 0.9) 50%,
       rgba(99, 93, 93, 0.9) 0
     );
-    margin: 0 4rem 12rem 4rem;
+    margin: 0 2rem 10rem 2rem;
     font-size: 3.5rem;
     font-weight: 400;
     display: flex;
@@ -1198,7 +1219,7 @@ button{
       rgba(61, 58, 58, 0.9) 50%,
       rgba(99, 93, 93, 0.9) 0
     );
-    margin: 0 4rem 12rem 4rem;
+    margin: 0 3rem 11rem 3rem;
     font-size: 5rem;
     font-weight: 400;
     display: flex;
@@ -1354,7 +1375,7 @@ button{
     padding: 2rem 0;
   }
   .new__img{
-    width: 150px;
+    width: 180px;
   }
   .new__img,
   .new__subtitle{

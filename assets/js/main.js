@@ -63,15 +63,6 @@ const interval = setInterval(() => {
     countdown.innerHTML = "<h1>Countdown is over!</h1>";
   }
 
-  document.querySelector(".reset").addEventListener("click", () => {
-    clearInterval(interval);
-
-    const divs = document.querySelectorAll(".countdown div");
-
-    divs.forEach((div) => {
-      div.innerHTML = "00";
-    });
-  });
 }, 1000);
 
 
