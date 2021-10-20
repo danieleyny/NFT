@@ -1,0 +1,1 @@
+This is a website build for an NFT project that is coming out soon. The concept of the NFT is that it will be a similar spin off to the classic game known as TameGatche.
