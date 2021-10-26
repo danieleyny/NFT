@@ -7,29 +7,94 @@
 
   /*========== Colors ==========*/
   --hue: 14;
-  --first-color: #33abde;
-  --first-color-alt: #2588b3;
+  
+ 
+
+  /*dark/light gradient*/  
+   /*
   --title-color: hsl(var(--hue), 4%, 100%);
+  --button-font-color: hsl(var(--hue), 4%, 100%);
   --text-color: hsl(var(--hue), 4%, 85%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
-
-  /*dark/light gradient*/
-   --body-color: linear-gradient(90deg, #84828F 0%, #2C3D55 100%);
-   --body2-color: linear-gradient(90deg, #6c6b76 0%, #212f41 100%);
+  --first-color: #33abde;
+  --first-color-alt: #2588b3; 
+  --body-color: linear-gradient(90deg, #84828F 0%, #2C3D55 100%);
+  --body2-color: linear-gradient(90deg, #6c6b76 0%, #212f41 100%);
   --container-color: linear-gradient(60deg, hsl(227, 18%, 21%) 0%, #6A687A 100%); 
+  */
 
-  /*dark gradient*/
-  /* --body-color: linear-gradient(90deg, hsl(227, 18%, 21%) 0%, #2C3D55 100%);
-  --container-color: linear-gradient(60deg, hsl(227, 18%, 21%) 0%, #6A687A 100%); */
   
-  /*Red gradient*/
-  /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
-  --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); */
+  /*dark blue gradient*/
+ /*
+   --title-color: hsl(var(--hue), 4%, 100%);
+   --button-font-color: hsl(var(--hue), 4%, 100%);
+  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --body-color: linear-gradient(90deg, #0d1b2a 0%, #1b263b 100%);
+  --body2-color: linear-gradient(90deg, #1b263b 0%, #0d1b2a 100%);
+  --container-color: linear-gradient(60deg, #415a77 0%, #778da9 100%); 
+  --first-color-alt: #777776;
+  --first-color: #4d4d4b; 
+   */
 
-  /*Black solid*/
-  /* --body-color: hsl(30, 8%, 8%);
-  --container-color: hsl(30, 8%, 10%); */
 
+  /* black gradient*/
+  /*
+   --title-color: hsl(var(--hue), 4%, 100%);
+   --button-font-color: hsl(var(--hue), 4%, 100%);
+  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --body-color: linear-gradient(90deg, #010400 0%, #30332E 100%);
+  --body2-color: linear-gradient(90deg, #30332E 0%, #010400 100%);
+  --container-color: linear-gradient(60deg, #adac93 0%, #807e68 100%); 
+  --first-color-alt: #5b7168;
+  --first-color: #6fc9a8; 
+  */
+
+
+
+  /* light gradient */
+ /*
+  --title-color: hsl(var(--hue), 4%, 100%);
+  --button-font-color: rgb(88, 87, 87);
+  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --first-color: #FEFFFE;
+  --first-color-alt: #cecece; 
+  --body-color: linear-gradient(90deg, #8D818C 0%, #A5A299 100%);
+  --body2-color: linear-gradient(90deg, #A5A299 0%, #8D818C 100%);
+  --container-color: linear-gradient(60deg, #70676f 0%, #88857e 100%);
+   */
+
+
+  /* colorful gradient */
+ /*
+
+  --title-color: hsl(var(--hue), 4%, 100%);
+  --button-font-color: #FFEEDD;
+  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --first-color: #3f3a36; 
+  --first-color-alt: #5a8588; 
+  --body-color: linear-gradient(90deg, #603f3f 0%, #9b8576 100%);
+  --body2-color: linear-gradient(90deg, #9b8576 0%, #603f3f 100%);
+  --container-color: linear-gradient(60deg, #5e5b56 0%, #5e5b56 100%);
+  */
+
+  /*  light gradient */
+ /*
+  --title-color: hsl(var(--hue), 4%, 100%);
+  --button-font-color: #463f3a;
+  --text-color: hsl(var(--hue), 4%, 85%);
+  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --first-color: #f4f3ee; 
+  --first-color-alt: #e0afa0; 
+  --body-color: linear-gradient(90deg, #463f3a 0%, #463f3a 100%);
+  --body2-color: linear-gradient(90deg, #8a817c 0%, #8a817c 100%);
+  --container-color: linear-gradient(60deg, #8a817c 0%, #8a817c 100%);
+  */
+
+  
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --biggest-font-size: 2rem;
@@ -526,6 +591,15 @@ button{
 .button{
   display: inline-block;
   background-color: var(--first-color);
+  color: var(--button-font-color);
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+.button2{
+  display: inline-block;
+  background-color: var(--first-color);
   color: var(--title-color);
   padding: 1rem 1.75rem;
   border-radius: .5rem;
@@ -535,7 +609,7 @@ button{
 .button-countdown{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--title-color);
+  color: var(--button-font-color);
   padding: 1.2rem 1.5rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -544,7 +618,7 @@ button{
 .button-aboutus{
   display: inline-block;
   background-color: var(--first-color);
-  color: var(--title-color);
+  color: var(--button-font-color);
   padding: .8em 1rem;
   font-size: .8rem;
   border-radius: .5rem;
@@ -694,7 +768,7 @@ button{
 
 .elixir__icon{
   font-size: 1.25rem;
-  color: var(--title-color);
+  color: var(--button-font-color);
 }
 
 .elixir__content:hover .elixir__img{
@@ -773,7 +847,7 @@ button{
   top: 8%;
   left: 8%;
   background-color: var(--first-color);
-  color: var(--title-color);
+  color: var(--button-font-color);
   font-size: var(--small-font-size);
   padding: .25rem .5rem;
   border-radius: .25rem;
