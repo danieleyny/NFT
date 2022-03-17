@@ -36,7 +36,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 const countdown = document.querySelector(".countdown");
 
 const interval = setInterval(() => {
-  const deadline = new Date(2021, 11, 15, 12, 00, 00);
+  const deadline = new Date(2022, 5, 15, 12, 00, 00);
 
   const current = new Date();
 
